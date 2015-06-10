@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E49F52401B26EF6600CC0C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F523F1B26EF6600CC0C32 /* main.m */; };
+		E49F52431B26EF6600CC0C32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F52421B26EF6600CC0C32 /* AppDelegate.m */; };
+		E49F52461B26EF6600CC0C32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F52451B26EF6600CC0C32 /* ViewController.m */; };
+		E49F52491B26EF6600CC0C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49F52471B26EF6600CC0C32 /* Main.storyboard */; };
+		E49F524B1B26EF6600CC0C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49F524A1B26EF6600CC0C32 /* Images.xcassets */; };
+		E49F524E1B26EF6600CC0C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49F524C1B26EF6600CC0C32 /* LaunchScreen.xib */; };
+		E49F525A1B26EF6600CC0C32 /* iOS____NavigationVCPop____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F52591B26EF6600CC0C32 /* iOS____NavigationVCPop____Tests.m */; };
+		E49F52671B26F00900CC0C32 /* CustomPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F52661B26F00900CC0C32 /* CustomPopAnimation.m */; };
+		E49F526D1B28005700CC0C32 /* CustomNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F526C1B28005700CC0C32 /* CustomNavigationControllerDelegate.m */; };
+		E49F52701B28026100CC0C32 /* UINavigationController+CustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F526F1B28026100CC0C32 /* UINavigationController+CustomAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E49F52541B26EF6600CC0C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49F52321B26EF6600CC0C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49F52391B26EF6600CC0C32;
+			remoteInfo = "iOS-自定义NavigationVCPop手势动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E49F523A1B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-自定义NavigationVCPop手势动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49F523E1B26EF6600CC0C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49F523F1B26EF6600CC0C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E49F52411B26EF6600CC0C32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E49F52421B26EF6600CC0C32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E49F52441B26EF6600CC0C32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E49F52451B26EF6600CC0C32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E49F52481B26EF6600CC0C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49F524A1B26EF6600CC0C32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E49F524D1B26EF6600CC0C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E49F52531B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-自定义NavigationVCPop手势动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49F52581B26EF6600CC0C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49F52591B26EF6600CC0C32 /* iOS____NavigationVCPop____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____NavigationVCPop____Tests.m"; sourceTree = "<group>"; };
+		E49F52651B26F00900CC0C32 /* CustomPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopAnimation.h; sourceTree = "<group>"; };
+		E49F52661B26F00900CC0C32 /* CustomPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopAnimation.m; sourceTree = "<group>"; };
+		E49F526B1B28005700CC0C32 /* CustomNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		E49F526C1B28005700CC0C32 /* CustomNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		E49F526E1B28026100CC0C32 /* UINavigationController+CustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CustomAnimation.h"; sourceTree = "<group>"; };
+		E49F526F1B28026100CC0C32 /* UINavigationController+CustomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CustomAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49F52371B26EF6600CC0C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49F52501B26EF6600CC0C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E49F52311B26EF6600CC0C32 = {
+			isa = PBXGroup;
+			children = (
+				E49F523C1B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画 */,
+				E49F52561B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests */,
+				E49F523B1B26EF6600CC0C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49F523B1B26EF6600CC0C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49F523A1B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画.app */,
+				E49F52531B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49F523C1B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E49F52641B26EFE600CC0C32 /* PopAnimation */,
+				E49F52411B26EF6600CC0C32 /* AppDelegate.h */,
+				E49F52421B26EF6600CC0C32 /* AppDelegate.m */,
+				E49F52441B26EF6600CC0C32 /* ViewController.h */,
+				E49F52451B26EF6600CC0C32 /* ViewController.m */,
+				E49F52471B26EF6600CC0C32 /* Main.storyboard */,
+				E49F524A1B26EF6600CC0C32 /* Images.xcassets */,
+				E49F524C1B26EF6600CC0C32 /* LaunchScreen.xib */,
+				E49F523D1B26EF6600CC0C32 /* Supporting Files */,
+			);
+			path = "iOS-自定义NavigationVCPop手势动画";
+			sourceTree = "<group>";
+		};
+		E49F523D1B26EF6600CC0C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49F523E1B26EF6600CC0C32 /* Info.plist */,
+				E49F523F1B26EF6600CC0C32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49F52561B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E49F52591B26EF6600CC0C32 /* iOS____NavigationVCPop____Tests.m */,
+				E49F52571B26EF6600CC0C32 /* Supporting Files */,
+			);
+			path = "iOS-自定义NavigationVCPop手势动画Tests";
+			sourceTree = "<group>";
+		};
+		E49F52571B26EF6600CC0C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49F52581B26EF6600CC0C32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49F52641B26EFE600CC0C32 /* PopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E49F52651B26F00900CC0C32 /* CustomPopAnimation.h */,
+				E49F52661B26F00900CC0C32 /* CustomPopAnimation.m */,
+				E49F526E1B28026100CC0C32 /* UINavigationController+CustomAnimation.h */,
+				E49F526F1B28026100CC0C32 /* UINavigationController+CustomAnimation.m */,
+				E49F526B1B28005700CC0C32 /* CustomNavigationControllerDelegate.h */,
+				E49F526C1B28005700CC0C32 /* CustomNavigationControllerDelegate.m */,
+			);
+			path = PopAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49F52391B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49F525D1B26EF6600CC0C32 /* Build configuration list for PBXNativeTarget "iOS-自定义NavigationVCPop手势动画" */;
+			buildPhases = (
+				E49F52361B26EF6600CC0C32 /* Sources */,
+				E49F52371B26EF6600CC0C32 /* Frameworks */,
+				E49F52381B26EF6600CC0C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-自定义NavigationVCPop手势动画";
+			productName = "iOS-自定义NavigationVCPop手势动画";
+			productReference = E49F523A1B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E49F52521B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49F52601B26EF6600CC0C32 /* Build configuration list for PBXNativeTarget "iOS-自定义NavigationVCPop手势动画Tests" */;
+			buildPhases = (
+				E49F524F1B26EF6600CC0C32 /* Sources */,
+				E49F52501B26EF6600CC0C32 /* Frameworks */,
+				E49F52511B26EF6600CC0C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49F52551B26EF6600CC0C32 /* PBXTargetDependency */,
+			);
+			name = "iOS-自定义NavigationVCPop手势动画Tests";
+			productName = "iOS-自定义NavigationVCPop手势动画Tests";
+			productReference = E49F52531B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49F52321B26EF6600CC0C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = sz;
+				TargetAttributes = {
+					E49F52391B26EF6600CC0C32 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E49F52521B26EF6600CC0C32 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E49F52391B26EF6600CC0C32;
+					};
+				};
+			};
+			buildConfigurationList = E49F52351B26EF6600CC0C32 /* Build configuration list for PBXProject "iOS-自定义NavigationVCPop手势动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E49F52311B26EF6600CC0C32;
+			productRefGroup = E49F523B1B26EF6600CC0C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49F52391B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画 */,
+				E49F52521B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49F52381B26EF6600CC0C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49F52491B26EF6600CC0C32 /* Main.storyboard in Resources */,
+				E49F524E1B26EF6600CC0C32 /* LaunchScreen.xib in Resources */,
+				E49F524B1B26EF6600CC0C32 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49F52511B26EF6600CC0C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49F52361B26EF6600CC0C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49F52461B26EF6600CC0C32 /* ViewController.m in Sources */,
+				E49F52671B26F00900CC0C32 /* CustomPopAnimation.m in Sources */,
+				E49F52701B28026100CC0C32 /* UINavigationController+CustomAnimation.m in Sources */,
+				E49F526D1B28005700CC0C32 /* CustomNavigationControllerDelegate.m in Sources */,
+				E49F52431B26EF6600CC0C32 /* AppDelegate.m in Sources */,
+				E49F52401B26EF6600CC0C32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49F524F1B26EF6600CC0C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49F525A1B26EF6600CC0C32 /* iOS____NavigationVCPop____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E49F52551B26EF6600CC0C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49F52391B26EF6600CC0C32 /* iOS-自定义NavigationVCPop手势动画 */;
+			targetProxy = E49F52541B26EF6600CC0C32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E49F52471B26EF6600CC0C32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49F52481B26EF6600CC0C32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E49F524C1B26EF6600CC0C32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49F524D1B26EF6600CC0C32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49F525B1B26EF6600CC0C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E49F525C1B26EF6600CC0C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E49F525E1B26EF6600CC0C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-自定义NavigationVCPop手势动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E49F525F1B26EF6600CC0C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-自定义NavigationVCPop手势动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E49F52611B26EF6600CC0C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-自定义NavigationVCPop手势动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-自定义NavigationVCPop手势动画.app/iOS-自定义NavigationVCPop手势动画";
+			};
+			name = Debug;
+		};
+		E49F52621B26EF6600CC0C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-自定义NavigationVCPop手势动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-自定义NavigationVCPop手势动画.app/iOS-自定义NavigationVCPop手势动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49F52351B26EF6600CC0C32 /* Build configuration list for PBXProject "iOS-自定义NavigationVCPop手势动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49F525B1B26EF6600CC0C32 /* Debug */,
+				E49F525C1B26EF6600CC0C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49F525D1B26EF6600CC0C32 /* Build configuration list for PBXNativeTarget "iOS-自定义NavigationVCPop手势动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49F525E1B26EF6600CC0C32 /* Debug */,
+				E49F525F1B26EF6600CC0C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E49F52601B26EF6600CC0C32 /* Build configuration list for PBXNativeTarget "iOS-自定义NavigationVCPop手势动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49F52611B26EF6600CC0C32 /* Debug */,
+				E49F52621B26EF6600CC0C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49F52321B26EF6600CC0C32 /* Project object */;
+}
